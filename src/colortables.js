@@ -1,4 +1,9 @@
-import * as cmaps from "./cmaps";
+import * as mapObj from "./cmaps/index.js";
+const cmaps = []
+for (const [key, value] of Object.entries(mapObj)) {
+  console.log(`${key}: ${value}`);
+  cmaps.push({[key]: value})
+}
 
 export const colortables = function () {
   this.version = 0.1;

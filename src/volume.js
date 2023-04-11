@@ -4,8 +4,8 @@ import virdis from "./colormaps/matplotlib-virdis.png";
 import rainbow from "./colormaps/rainbow.png";
 import samselGreen from "./colormaps/samsel-linear-green.png";
 import samselYgb from "./colormaps/samsel-linear-ygb-1211g.png";
-//import { cmapper } from "./colortables";
-//export { colortables, cmapper } from "./colortables";
+// import { cmapper } from "./colortables";
+export { colortables, cmapper } from "./colortables";
 
 export const volumes = {
     "Fuel": "7d87jcsh0qodk78/fuel_64x64x64_uint8.raw",

@@ -1,7 +1,7 @@
 import {ArcballCamera} from "arcball_camera";
 import {Controller} from "ez_canvas_controller";
 import {mat4, vec3} from "gl-matrix";
-//import { cmapper } from "./colortables";
+import { cmapper } from "./colortables";
 import shaderCode from "./shaders.wgsl";
 import {
     colormaps,
